@@ -24,9 +24,6 @@ def student_server(roll_no_,LRU):
 
 
 
-
-
-
 while(True):
     roll_no_=str(input('Enter you student id'))
     student_server(roll_no_,LRUcache)
